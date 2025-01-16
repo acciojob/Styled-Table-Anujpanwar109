@@ -1,1 +1,23 @@
 /* your code */
+table{
+	
+	font-family: arial, sans-serif;
+	border-radius:12px;
+    border-collapse: collapse;
+    width: 100%;
+	border:1px solid #dddddd;
+	border-radius:10px;
+	overflow: hidden;
+thead {
+      background-color: #164b8a; /* Dark blue background */
+      color: white;
+    }
+td, th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
